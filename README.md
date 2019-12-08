@@ -1,4 +1,4 @@
-# js-vue-components
+# test
 
 ## Project setup
 ```
