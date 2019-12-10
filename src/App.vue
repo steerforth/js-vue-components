@@ -5,7 +5,16 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
-    <a-button type="primary">Button</a-button>
+    <a-button-group>
+      <a-button type="primary" ghhost="true" loading="true">Button</a-button>
+      <a-button type="primary" ghhost="true" loading="false">Button</a-button>
+      <a-button type="primary" icon="search"></a-button>
+    </a-button-group>
+    <!--<a-dropdown-button>-->
+      <!--<a-button type="primary" icon="search">1</a-button>-->
+      <!--<a-button type="primary" icon="search">2</a-button>-->
+      <!--<a-button type="primary" icon="search">3</a-button>-->
+    <!--</a-dropdown-button>-->
   </div>
 </template>
 

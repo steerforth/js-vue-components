@@ -7,7 +7,7 @@ import store from "./store";
 //import 'ant-design-vue/dist/antd.css';
 import { Button } from 'ant-design-vue';
 
-Vue.component(Button.name, Button);
+Vue.component(Button.name, Button,Button.Group);
 
 Vue.config.productionTip = false;
 
